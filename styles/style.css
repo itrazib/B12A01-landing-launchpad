@@ -1,0 +1,70 @@
+/* font style */
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+  /* shared style */
+  .color-1{
+    color: #4E47FF;
+  }
+  .color-2{
+    background-color: #4E47FF;
+  }
+  .btn{
+    height: 48px;
+  }
+  .text-center{
+    text-align: center;
+  }
+/* header started */
+.header{
+    width: 1440px;
+    height: 698px;
+    background-image: url(../Assets/Hero-bg.png);
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+.website-logo{
+    font-size: 34px;
+    font-weight: bold;
+    
+}
+.nav-button{
+    width: 132px;
+    padding: 12px 36px;
+    color: white;
+    border-radius: 10px;
+}
+/* banner section */
+.banner-section{
+     width: 905px;
+    height: 152px;
+    margin: 0px auto;
+    text-align: center;
+}
+.banner-button{
+    width: 174px;
+    padding: 12px 36px;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.banner-title{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
