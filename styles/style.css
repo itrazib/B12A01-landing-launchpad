@@ -12,6 +12,9 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+body{
+    background-color: rgba(214, 221, 237, 1);
+}
 
   /* shared style */
   .color-1{
@@ -107,6 +110,7 @@ nav{
     width: 1140px;
     height: 306px;
     margin: 116px auto;
+    border-radius: 24px;
 }
 .user-section-title{
     font-size: 38px;
@@ -131,3 +135,58 @@ nav{
 .productive-data,.productive-data-subtitle{
     margin: 5px 0;
 }
+/* touch section */
+.touch-section{
+    width: 1140px;
+    height: 632px;
+    margin: 116px auto;
+}
+.touch-section-title{
+    font-size: 97px;
+    font-weight: bold;
+    width: 528px;
+}
+.touch-section-right-label{
+    font-size: 18px;
+    font-weight: 650px;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+}
+.touch-section-right-input{
+    width: 497px;
+    height: 70px;
+    padding-left: 32px;
+    border-radius: 10px;
+    padding: 10px 32px;
+    display: block;
+    margin-bottom: 10px ;
+}
+.touch-section-right-message{
+    width: 497px;
+    height: 135px;
+    border-radius: 10px;
+    padding: 10px 32px;
+    display: block;
+    margin-bottom: 10px ;
+}
+.touch-section-right-button{
+    width: 560px;
+    height: 62px;
+    /* text-align: center; */
+    padding-top: 19px 110px;
+    border-radius: 10px;
+    font-size: 16;
+    font-weight: bold;
+    color: #FFFFFF;
+
+}
+.touch-section-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 71px;
+    padding-bottom: 71px;
+    gap: 46px;
+}
+/* user feeedback section */
