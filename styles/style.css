@@ -61,6 +61,9 @@ nav{
     width: 132px;
     padding: 12px 36px;
 }
+.nav-button:hover{
+    background-image:linear-gradient(to right,#FFB912,#FF12DC) ;
+}
 /* banner section */
 .banner-section{
      width: 905px;
@@ -72,6 +75,9 @@ nav{
     width: 174px;
     padding: 12px 36px;
     color: #FFFFFF;
+}
+.banner-button:hover{
+    background-image:linear-gradient(to right,#FFB912,#FF12DC) ;
 }
 .banner-title{
     font-size: 65px;
@@ -95,6 +101,9 @@ nav{
 }
 .action-button{
     width: 229px;
+}
+.action-button:hover{
+    background-image:linear-gradient(to right,#FFB912,#FF12DC) ;
 }
 .action-section-flex{
     display: flex;
@@ -181,6 +190,9 @@ nav{
     color: #FFFFFF;
 
 }
+.touch-section-right-button:hover{
+    background-image:linear-gradient(to right,#FFB912,#FF12DC) ;
+}
 .touch-section-flex{
     display: flex;
     justify-content: center;
@@ -265,7 +277,7 @@ nav{
     width: 531px;
 }
 .footer-details{
-      padding: 103px 454px 0px;
+      padding: 70px 454px 0px;
       text-align: center;
 }
 .footer-container ul{
